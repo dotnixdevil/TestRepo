@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validators>
+<field name="amount">
+	<field-validator type="int">
+		<param name="min">1</param>
+		<message key="errors.invalid" />
+	</field-validator>
+</field>
+</validators>
